@@ -6,7 +6,7 @@ import githubLight from "../icons/github-light.svg";
 import githubDark from "../icons/github-dark.svg";
 import linkedinLight from "../icons/linkedin-light.svg";
 import linkedinDark from "../icons/linkedin-dark.svg";
-import Resume from "../ImagesJson/Resume.pdf";
+import cv from "../ImagesJson/cv.pdf";
 import { motion } from "motion/react";
 
 export default function Hero({ darkMode }) {
@@ -77,7 +77,7 @@ export default function Hero({ darkMode }) {
           Developing modern React websites for commercial businesses tailored to
           client satisfaction.
         </p>
-        <a href={Resume} target="_blank" rel="noopener noreferrer">
+        <a href={cv} target="_blank" rel="noopener noreferrer">
           <button
             className="relative mt-[25px]
             before:absolute before:w-2/3 before:h-2/3 before:top-0 before:left-0 before:rounded-tl-lg
