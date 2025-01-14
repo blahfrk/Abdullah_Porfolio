@@ -77,7 +77,11 @@ export default function Hero({ darkMode }) {
           Developing modern React websites for commercial businesses tailored to
           client satisfaction.
         </p>
-        <a href={cv} target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://docs.google.com/document/d/10hWJmnZWiXn9rTQjnpWwyMD33kytB24G/edit?usp=sharing&ouid=109777921823216899738&rtpof=true&sd=true"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button
             className="relative mt-[25px]
             before:absolute before:w-2/3 before:h-2/3 before:top-0 before:left-0 before:rounded-tl-lg
