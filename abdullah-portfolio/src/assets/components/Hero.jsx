@@ -33,12 +33,12 @@ export default function Hero({ darkMode }) {
         className="flex flex-col text-center gap-5"
       >
         <h1 className="text-black dark:text-white text-[32px] md:text-[40px] lg:text-[46px] font-rubik leading-tight">
-          ABDULLAH <br /> FAROUK
+          WEB DEVELOPER
         </h1>
-        <h2 className="text-black dark:text-white text-[20px] md:text-[22px] font-roboto font-bold">
-          FRONTEND DEVELOPER
-        </h2>
-        <span className="flex justify-center gap-6">
+        {/* <h2 className="text-black dark:text-white text-[20px] md:text-[22px] font-roboto font-bold">
+          WEB DEVELOPER
+        </h2> */}
+        <span className="flex justify-center gap-6 mb-5">
           <a
             href="https://facebook.com/blahtot"
             target="_blank"
@@ -50,7 +50,7 @@ export default function Hero({ darkMode }) {
               className="m-0 w-8"
             />
           </a>
-          <a
+          {/* <a
             href="https://github.com/blahfrk?tab=repositories"
             target="_blank"
             className="w-fit"
@@ -60,7 +60,7 @@ export default function Hero({ darkMode }) {
               alt="gitHub icon"
               className="m-0 w-8"
             />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/abdullah-farouk-618360318"
             target="_blank"
@@ -73,9 +73,21 @@ export default function Hero({ darkMode }) {
             />
           </a>
         </span>
-        <p className="text-black dark:text-gray-200 text-[16px] md:text-[20px] md font-roboto max-w-[24ch]">
-          Developing modern React websites for commercial businesses tailored to
-          client satisfaction.
+        <p className="text-black dark:text-gray-200 text-[16px] md:text-[20px] font-roboto px-8 md:px-10 max-w-[52ch]">
+          Hi!👋🏻 I’m{" "}
+          <span className="font-rubik dark:dark:bg-gray-800 bg-gray-300 px-4 py-1 rounded-lg">
+            ABDULLAH FAROUK
+          </span>
+          , but you can call me Blah. Funny nickname, right? It actually came
+          from my older brother, who had trouble pronouncing my name. Though my
+          name has Arabic roots, I’m proud FILIPINO!🫶🏻
+          <br></br>
+          <br></br>
+          I’m an IT graduate year 2024, at the{" "}
+          <span className="font-rubik dark:dark:bg-gray-800 bg-gray-300 px-4 py-1 rounded-lg">
+            University of the Cordilleras
+          </span>
+          , pursuing a career in the field of Web Development.🧑🏻‍💻
         </p>
         <a
           href="https://docs.google.com/document/d/10hWJmnZWiXn9rTQjnpWwyMD33kytB24G/edit?usp=sharing&ouid=109777921823216899738&rtpof=true&sd=true"
